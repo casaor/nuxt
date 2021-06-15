@@ -1,0 +1,39 @@
+body{
+    background-color: #e8fff5;
+}
+
+    .centered {
+        display: flex;
+        justify-content: center;
+        .card {
+            min-width: 20rem;
+            border: none;
+        }
+    
+    .card-header {
+        background-color: #e27d60;
+        color:white;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 300;
+
+    }
+    
+    .card-body {
+        background-color: #e8a87c;
+        li {
+            display: flex;
+            justify-content: space-between; 
+        }
+    }
+}
+
+ul {
+    list-style-type: none !important;
+    padding: 0;
+    
+    li {
+        display: flex;
+        justify-content: space-around;
+    }
+}

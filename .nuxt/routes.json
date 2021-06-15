@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Pictures",
+    "path": "/Pictures",
+    "component": "/Users/carlota/Documents/Work/Cursos/IT Academy/FE Vue/Mòdul 11_Nuxt JS/projecte/pages/Pictures/index.vue",
+    "chunkName": "pages/Pictures/index",
+    "_name": "_6d96446a"
+  },
+  {
+    "name": "Users",
+    "path": "/Users",
+    "component": "/Users/carlota/Documents/Work/Cursos/IT Academy/FE Vue/Mòdul 11_Nuxt JS/projecte/pages/Users/index.vue",
+    "chunkName": "pages/Users/index",
+    "_name": "_7d7e2970"
+  },
+  {
+    "name": "Pictures-id",
+    "path": "/Pictures/:id",
+    "component": "/Users/carlota/Documents/Work/Cursos/IT Academy/FE Vue/Mòdul 11_Nuxt JS/projecte/pages/Pictures/_id/index.vue",
+    "chunkName": "pages/Pictures/_id/index",
+    "_name": "_88f7c994"
+  },
+  {
+    "name": "Users-id",
+    "path": "/Users/:id",
+    "component": "/Users/carlota/Documents/Work/Cursos/IT Academy/FE Vue/Mòdul 11_Nuxt JS/projecte/pages/Users/_id/index.vue",
+    "chunkName": "pages/Users/_id/index",
+    "_name": "_e8b9bb9a"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/carlota/Documents/Work/Cursos/IT Academy/FE Vue/Mòdul 11_Nuxt JS/projecte/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_25e0a26f"
+  }
+]

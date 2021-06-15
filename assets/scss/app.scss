@@ -1,0 +1,16 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 640px,
+  lg: 992px,
+  xl: 1300px
+);
+$enable-rounded: false;
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/grids";
+@import "./base/navbar";
+@import "./base/footer";
