@@ -27,6 +27,13 @@ import { mapMutations } from "vuex";
 
 export default {
 
+  data ()
+  {
+      return{
+        value: ''
+      }
+  },
+
   methods: {
     ...mapMutations("users", ["setSearch"]),
   },

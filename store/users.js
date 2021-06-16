@@ -22,15 +22,19 @@ export const mutations = {
         item.consulted = 0;
         })
     },
-    SetUserVisited (state, userVisited) {
+    SetUserVisited (state, userVisited) 
+    {
         state.singleUser = userVisited;
         var usersRefresh = [];
         usersRefresh = state.users
-        for (let user of state.users){
-        if (user == userVisited) {
-            user.consulted++;
-        }
-        } state.users = usersRefresh;
+        for (let user of state.users)
+        {
+          if (user == userVisited) 
+          {
+              user.consulted++;
+          }
+        } 
+        state.users = usersRefresh;
     },
     setSearch (state,search){
       state.filters.search = search
